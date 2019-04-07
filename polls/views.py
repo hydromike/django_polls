@@ -5,7 +5,7 @@ from django.views import generic
 from django.utils import timezone
 
 
-from .models import Question
+from .models import Choice, Question
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
